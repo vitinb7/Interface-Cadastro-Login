@@ -1,0 +1,100 @@
+.corpo {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo-login {
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    margin-top: 30%;
+    border-radius: 20px;
+    border: 3px solid rgba(53, 51, 51, 0.788);
+    box-shadow: 3px 3px 5px gray;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.campo-user {
+    margin-top: 50px;
+    display: block;
+    margin-left: 25%;
+    border: 2px solid rgba(53, 51, 51, 0.788);
+}
+
+.campo-pass {
+    margin-top: 40px;
+    display: block;
+    margin-left: 25%;
+    border: 2px solid rgba(53, 51, 51, 0.788);
+}
+
+.button-login {
+    margin-top: 35px;
+    margin-left: 40%;
+    display: block;
+}
+
+.link-signup {
+    display: block;
+    margin: 10px 10px 10px 70px;
+}
+
+/*------------------------ACIMA-LOGIN-----------------------*/
+.fundo-signup {
+    width: 350px;
+    height: 380px;
+    background-color: white;
+    margin-top: 90px;
+    border-radius: 20px;
+    border: 3px solid rgba(53, 51, 51, 0.788);
+    box-shadow: 3px 3px 5px gray;
+}
+
+.fundo-signup input {
+    display: block;
+    margin-top: 20px;
+    margin-left: 25%;
+    border: 2px solid rgba(53, 51, 51, 0.788);
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 32%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button-signup {
+    margin-top: 13px;
+    margin-left: 40%;
+}
+
+a {
+    color: #1195c1;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-signin {
+    display: block;
+    margin: 10px 10px 10px 70px;
+}
+#Dtnascimento{
+    width: 165px;
+}
